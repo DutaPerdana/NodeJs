@@ -20,9 +20,6 @@ import routes from './routes.js';
 //   console.log('Server berjalan pada %s', server.info.uri);
 // };
 
-import Hapi from '@hapi/hapi';
-import routes from './routes2.js'; // Pastikan path ini benar sesuai struktur proyek kamu
-
 const init = async () => {
   const server = Hapi.server({
     // Gunakan process.env.PORT untuk port, default ke 9000
